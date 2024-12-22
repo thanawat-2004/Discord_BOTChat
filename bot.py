@@ -183,4 +183,4 @@ async def on_ready():
 	print(f'Gemini Bot Logged in as {bot.user}')
 	print("----------------------------------------")
 
-bot.run(os.getenv('DISCORD_BOT_TOKEN'))
+bot.run(os.getenv('TOKEN'))
